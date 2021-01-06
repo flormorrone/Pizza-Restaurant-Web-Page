@@ -1,3 +1,5 @@
+window.addEventListener("load", start, false);
+
 function start() {
 
     //-------------------nav principal----------------------------------------
