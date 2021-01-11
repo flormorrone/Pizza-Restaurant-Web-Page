@@ -8,7 +8,7 @@ function start() {
     var nosotros = document.getElementById("btnnosotros");
     var contacto = document.getElementById("btncontacto");
     var promo = document.getElementById("btnpromo");
-    var principal = document.getElementById("logo");
+    var principal = document.getElementById("btnprincipal");
 
     menu.addEventListener("click", abrirMenu, false);
     nosotros.addEventListener("click", abrirNos, false);
