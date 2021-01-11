@@ -1,0 +1,133 @@
+            /*RESPONSIVE
+=====================================================
+
+Pantallas grandes (19' o mas)
+-----------------------------------------------------*/
+            
+            @media(max-width: 1200px) {
+                .enlaces a {
+                    font-size: 30px;
+                }
+                h1 {
+                    font-size: 200px;
+                }
+                h3 {
+                    font-size: 50px;
+                }
+                .enlaces,
+                #prin,
+                #promo1,
+                #promo2,
+                #menu1,
+                #menu2,
+                #menu3,
+                #familia {
+                    width: 40%;
+                }
+                .btn {
+                    width: 200px;
+                    height: 200px;
+                    font-size: 40px;
+                }
+            }
+            /*Pantallas normales y tables en horizontal (12' 16' aprox)
+-----------------------------------------------------------*/
+            
+            @media(min-width: 768px) {
+                .enlaces a {
+                    font-size: 25px;
+                }
+                h1 {
+                    font-size: 120px;
+                }
+                h3 {
+                    font-size: 30px;
+                }
+                .enlaces,
+                #prin,
+                #promo1,
+                #promo2,
+                #menu1,
+                #menu2,
+                #menu3,
+                #area,
+                #familia {
+                    width: 65%;
+                }
+                .btn {
+                    width: 200px;
+                    height: 200px;
+                    font-size: 40px;
+                }
+            }
+            /*Celulares en horizontal y tablets en vertical (8' 10' aprox)
+----------------------------------------------------------*/
+            
+            @media(max-width: 767px) {
+                .enlaces a {
+                    font-size: 20px;
+                }
+                h1 {
+                    font-size: 90px;
+                }
+                h3 {
+                    font-size: 20px;
+                }
+                .enlaces,
+                #prin,
+                #promo1,
+                #promo2,
+                #menu1,
+                #menu2,
+                #menu3,
+                #area,
+                #familia {
+                    width: 80%;
+                }
+                .btn {
+                    width: 130px;
+                    height: 130px;
+                    font-size: 20px;
+                }
+            }
+            /*Celulares en vertical (7' aprox)
+-----------------------------------------------------------*/
+            
+            @media(max-width: 480px) {
+                .enlaces a {
+                    font-size: 15px;
+                }
+                h1 {
+                    font-size: 70px;
+                }
+                h3 {
+                    font-size: 20px;
+                }
+                .enlaces,
+                #prin,
+                #promo1,
+                #promo2,
+                #menu1,
+                #menu2,
+                #menu3,
+                #area,
+                #familia {
+                    width: 90%
+                }
+                .btn {
+                    width: 130px;
+                    height: 130px;
+                    font-size: 20px;
+                }
+                #btn-container,
+                .enlaces {
+                    display: flex;
+                    flex-direction: column;
+                    /*un elemendo debajo de otro*/
+                    align-items: center;
+                    justify-content: center;
+                }
+                .enlaces a {
+                    padding-right: 5px;
+                }
+            }
